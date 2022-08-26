@@ -1,5 +1,5 @@
 ## Repositório das Listas de Programação Avançada
-Obs: Cada *branch* criado corresponde à resposta da respectiva lista.
+Obs: Cada **branch** criada corresponde à resposta da respectiva lista.
 
 ### Integrantes:
 
