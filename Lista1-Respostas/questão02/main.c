@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void){
+/*supondo que i ocupa o endereço 4094 na memória*/
 
-    /*supondo que i ocupa o endereço 4094 na memória*/
+int main(void){
 
     int i = 5, *p; // 'int i' recebe 5, declaração do ponteiro 'int *p'.
     p = &i; // 'p' recebe como conteúdo o endereço de memória de '&i = 4094'.
