@@ -26,11 +26,11 @@ int main(void){
 
     aloha[2] = value;
     scanf("%f", &aloha); //&aloha[0] = recebe um valor
-    //aloha = value";
+    aloha = value";
     printf("%f", aloha); //que valor de &aloha[0] ? Não se sabe, existe resíduos nos endereços do vetor não declarado seus valores.
-    //coisas[4][4] = aloha[3]; //válido
-    //coisas[5] = aloha; //'coisas'(matriz) recebe o endereço de '&aloha[0]'
-    //pf = value;
-    //pf = aloha;
+    coisas[4][4] = aloha[3]; //válido
+    coisas[5] = aloha; //'coisas'(matriz) recebe o endereço de '&aloha[0]'
+    pf = value;
+    pf = aloha;
 
 }
