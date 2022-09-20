@@ -1,5 +1,5 @@
 ## Repositório das Listas de Programação Avançada
-:speech_balloon: Cada **_branch_** criado corresponde à resposta da respectiva lista.
+:speech_balloon: Resposta da respectiva lista.
 
 ### Integrantes:
 
