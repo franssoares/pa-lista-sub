@@ -1,0 +1,4 @@
+Resposta:
+
+    O primeiro método de ordenacão, o bubblesort, obteve um tempo de execução menor do que a o método de ordenaão da função qsort().
+    Pode-se afirmar que a diferença entre os tempos é proporcional ao tamanho do vetor, uma vez que o computador aloca e efetua as operações no vetor.
