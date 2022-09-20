@@ -3,13 +3,14 @@
 
 /*
     
-    Reimplemente o programa da questão anterior utilizando a função qsort() do C. Comente o seu
-    código, explicando o que faz cada uma das linhas.
+    Utilize a ideia do ponteiro para função pela função qsort() para implementar sua própria função
+    de ordenação. Para isso, sua função deverá receber, entre outros argumentos, um ponteiro para
+    a função de comparação.
 
 */
 
 //função do parâmetro do qsort(), servindo os elementos do vetor para fazer a ordenação dos valores do vetor.
-int comparador(const void * p1, const void * p2){
+int comparador(const void *p1, const void *p2){
 
   return (*(int*)p1 - *(int*)p2);
 

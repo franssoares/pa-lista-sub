@@ -9,7 +9,29 @@
 */
 
 //função do parâmetro do qsort(), servindo os elementos do vetor para fazer a ordenação dos valores do vetor.
-int comparador(const void * p1, const void * p2){
+int comparador(const void *p1, const void *p2){
+
+    if (*(int*)p1 == *(int*)p2){
+
+        return 0;
+
+    }
+
+    else{
+
+        if(*(int*)p1 > *(int*)p2){
+
+            return 1;
+
+        }
+
+        else{
+
+            return -1;
+
+        }
+
+    }
 
   return (*(int*)p1 - *(int*)p2);
 
