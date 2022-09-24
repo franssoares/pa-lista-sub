@@ -16,6 +16,18 @@
 
 */
 
+//rand vetor
+void randvetor(float *pvetor, int *pn){
+
+    //valores randomicos do vetor
+    for ( int i = 0 ; i < *pn ; i++ ){
+
+        pvetor[i] = rand()%100;
+
+    }
+
+}
+
 //imprimir o vetor
 void imprimirvetor(int *p1n, float *pvetor){
 
@@ -116,15 +128,10 @@ int main(){
     scanf("%d", &n);
     n1 = n;
 
-    //alocando o espaço de memória para o vetor
-    vetor = (float*) malloc(n*sizeof(float));
+    /*BLOCO 1*/
 
     //valores randomicos do vetor
-    for ( i = 0 ; i < n ; i++){
-
-        vetor[i] = rand()%100;
-
-    }
+    randvetor(vetor, &n);
 
     //imprimir o vetor
     imprimirvetor(&n, vetor);
@@ -136,6 +143,14 @@ int main(){
     imprimirvetor(&n, vetor);
 
     t1 = (clock() - t);
+
+    /*BLOCO 2*/
+
+    //valores randomicos do vetor
+    randvetor(vetor, &n);
+
+    //imprimir o vetor
+    imprimirvetor(&n, vetor);
     
     //chamada da função quickysort com os seguintes parâmetros (vetor, tamanho do vetor, tamanho alocadom, método de comparação) -> (com o tempo de execução).
     qsort(vetor, n1, sizeof(float), comparador);
@@ -146,7 +161,7 @@ int main(){
     t2 = (clock() - t);
 
     //saida
-    printf("Tempo de execucao do metodo ordenacaoo bubblesort (criado) = %.10f s\n", t1/CLOCKS_PER_SEC);
+    printf("Tempo de execucao do metodo ordenacaoo construido (criado) = %.10f s\n", t1/CLOCKS_PER_SEC);
     printf("Tempo de execucao do metodo ordenacaoo da funcao qsort (criado) = %.10f s", t2/CLOCKS_PER_SEC);
 
     //liberar
