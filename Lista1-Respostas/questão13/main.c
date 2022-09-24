@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 /*
     
     Implemente em linguagem C uma função em um programa de computador que leia n valores do

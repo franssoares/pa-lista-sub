@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /*
 
     Escreva uma função em c que escreva em um vetor a soma dos elementos correspondentes de

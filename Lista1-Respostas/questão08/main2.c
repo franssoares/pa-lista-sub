@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /*
+
     O que fazem os seguintes programas em C?
+
 */
 
 int main(){

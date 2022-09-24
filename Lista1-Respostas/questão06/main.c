@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /*
-Assumindo  que  pulo[]  é  um  vetor  do  tipo  int,  quais  das  seguintes  
-expressões  referenciam  o valor do terceiro elemento do vetor?
+
+    Assumindo  que  pulo[]  é  um  vetor  do  tipo  int,  quais  das  seguintes  
+    expressões  referenciam  o valor do terceiro elemento do vetor?
+
 */
 
 int main(void){

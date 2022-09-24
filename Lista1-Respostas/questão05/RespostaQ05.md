@@ -1,3 +1,5 @@
+Resposta:
+
   O laço 'for' irá imprimir:
 
     i = 0vet[0] = 1.1*(f + 0) = 1.1&vet[0] = 61FF04(f + 0) = 61FF04

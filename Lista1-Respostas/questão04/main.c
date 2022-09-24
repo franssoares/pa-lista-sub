@@ -1,7 +1,9 @@
 int main(){
 
-    /*Determine  o  que  será  mostrado  pelo  seguinte  programa  (compile-o,  execute-o  e  verifique  se
-      foram obtidas as respostas esperadas).
+    /*
+    Determine  o  que  será  mostrado  pelo  seguinte  programa  (compile-o,  execute-o  e  verifique  se
+    foram obtidas as respostas esperadas).
+    
     */
 
     int    valor;

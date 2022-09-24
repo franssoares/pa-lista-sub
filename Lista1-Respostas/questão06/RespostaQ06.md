@@ -1,3 +1,3 @@
 Resposta:
 
-*(pulo + 2)
+    *(pulo + 2)

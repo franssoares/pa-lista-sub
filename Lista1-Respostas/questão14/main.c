@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 /*
     
     Utilize a ideia do ponteiro para função pela função qsort() para implementar sua própria função

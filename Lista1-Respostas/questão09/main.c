@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+
     Seja  x  um  vetor  de  4  elementos,  declarado  da  forma  TIPO  x[4];.  Suponha  que  depois  da
     declaração,  x  esteja  armazenado  no  endereço  de  memória  4092  (ou  seja,  o  endereço  de  x[0]).
     Suponha  também  que  na  máquina  seja  usada  uma  variável  do  tipo  char  ocupa  1  byte,  do  tipo
@@ -11,6 +12,7 @@
         ◦ x for declarado como int?
         ◦ x for declarado como float?
         ◦ x for declarado como double?
+
 */
 
 int main(void){

@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /*
+
     Problema: caso 'i' e 'j' não tenham seus valores declarados, o endereço de memória onde estão armazenados as variáveis, os valores podem ser a
     leatórios devido ao resíduo de memória. ILEGAL.
-    */
+
+*/
+
 
 int main(void){
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+
 /*supondo que i ocupa o endereço 4094 na memória*/
+
 
 int main(void){
 

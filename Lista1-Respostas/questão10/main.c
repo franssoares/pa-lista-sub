@@ -2,6 +2,7 @@
 #include <limits.h>
 
 /*
+
     A máquina gere os seguintes tipos de dados:
 
         char = 1 byte
@@ -13,6 +14,7 @@
         ◦ x for declarado como int?
         ◦ x for declarado como float?
         ◦ x for declarado como double?
+
 */
 
 int main(void){

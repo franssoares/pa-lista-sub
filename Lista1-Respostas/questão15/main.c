@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 /*
     
     Reimplemente o programa da questão anterior utilizando a função qsort() do C. Comente o seu

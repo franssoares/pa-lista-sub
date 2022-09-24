@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /*
+
     Considerando  a  declaração  int  mat[4],  *p,  x;,  quais  das  seguintes  
     expressões  são  válidas? Justifique.
+
 */
 
 int main(void){

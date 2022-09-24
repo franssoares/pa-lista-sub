@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /*
 Determine o valor das seguintes expressões:
 */
