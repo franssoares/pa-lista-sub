@@ -1,5 +1,5 @@
 ## Repositório das Listas de Programação Avançada
-:speech_balloon: Resposta da respectiva lista.
+:speech_balloon: Resposta da lista sobre ponteiros (lista 1) pronta.
 
 ### Integrantes:
 
